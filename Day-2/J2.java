@@ -64,3 +64,56 @@ class Exp2 {
         }
     }
 }
+
+class Exp3 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        int Mark = 0;
+
+        for(int i=0;i<6;i++){
+            System.out.printf("Enter Mark %d : ",(i+1));
+            Mark+=in.nextInt();
+        }
+
+        System.out.printf("Total : %d \nAverage %.2f",Mark,(float)Mark/6);
+    }
+}
+
+
+class Exp4 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter Num1 : ");
+        int num1 = in.nextInt();
+
+        System.out.print("Enter Num2 : ");
+        int num2 = in.nextInt();   
+
+        if(num1>num2){
+
+            System.out.printf("Max : %d\nMin : %d",num1,num2);
+
+        }else{
+             System.out.printf("Max : %d\nMin : %d",num2,num1);
+
+        }
+
+    }
+}
+
+class Exp5 {
+     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+
+        System.out.print("Enter Celsius : ");
+        double Celsius = in.nextDouble();
+
+        double Fahrenheit = (Celsius * 9/5) +32;
+
+        System.out.printf("%.2f Celsius = %.2f Fahrenheit",Celsius,Fahrenheit);
+        
+    }
+}
