@@ -117,3 +117,60 @@ class Exp5 {
         
     }
 }
+
+class Exp6 {
+     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+
+        System.out.print("Enter Principle : ");
+        double Principle = in.nextDouble();
+        System.out.print("Enter Rate : ");
+        double Rate = in.nextDouble();
+        System.out.print("Enter No.of Years : ");
+        double NoOfYears = in.nextDouble();
+        double SI = (Principle*NoOfYears*Rate)/100;
+
+        
+
+        System.out.printf("SI : %.2f ",SI);
+        
+    }
+}
+
+class Exp8 {
+     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+
+        System.out.print("Enter N : ");
+        int Num = in.nextInt();
+        int sum = 0;
+        for(int i=1;i<=Num*2;i+=2){
+
+
+            sum+=i;
+
+        }
+        
+        System.out.println("Sum of odd numbers from 1 to "+Num+" is: "+sum);    
+    }
+}
+class Exp9 {
+     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+
+        System.out.print("Enter N : ");
+        int Num = in.nextInt();
+        int sum = 0;
+        for(int i=1;i<=Num*2;i+=2){
+
+
+            sum+=i;
+
+        }
+        
+        System.out.println("Sum of odd numbers from 1 to "+Num+" is: "+sum);    
+    }
+}
