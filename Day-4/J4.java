@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.*;
 
 class Exp {
 
@@ -49,6 +50,23 @@ class Exp {
 
         
 
+
+    }
+}
+
+/**
+ * J4
+ */
+ class Pali {
+
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        StringBuffer obj = new StringBuffer(in.nextLine());
+        StringBuffer obj1 = new StringBuffer(obj.toString());
+        if(obj.reverse().toString().equals(obj1.toString()))
+            System.out.println("yes");
+        else
+            System.out.println("No");
 
     }
 }
